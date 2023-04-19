@@ -1,0 +1,25 @@
+# Definición de la función para sumar tres números
+def suma_tres_numeros(a, b, c):
+    return a + b + c
+
+# Llamada a la función con valores
+resultado = suma_tres_numeros(2, 4, 6)
+print("Resultado de la suma: ", resultado)
+
+# Definición de la clase Coche
+class Coche:
+    def __init__(self, num_puertas):
+        self.num_puertas = num_puertas
+
+    def incrementar_puertas(self):
+        self.num_puertas += 1
+
+# Creación de un objeto Coche
+miCoche = Coche(3)
+print("Número de puertas del coche: ", miCoche.num_puertas)
+
+# Incrementar el número de puertas del coche
+miCoche.incrementar_puertas()
+
+# Mostrar el nuevo número de puertas del coche
+print("Nuevo número de puertas del coche: ", miCoche.num_puertas)
